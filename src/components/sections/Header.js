@@ -40,7 +40,10 @@ const Header = () => (
               <br />
               <p>
                 <StyledExternalLink>
-                  Schedule Now &nbsp;&#x2794;
+                  <span role="img" aria-label="pawprints">🐾</span>
+                   Book Now
+                  <span role="img" aria-label="pawprints">🐾</span>
+                   &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
             </Text>

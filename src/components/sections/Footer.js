@@ -35,7 +35,7 @@ const Footer = () => (
         <FooterWrapper>
           <StyledContainer>
             <Copyright>
-              <h2>Peace of Mind Pet Sitting</h2>
+              <h3>Peace of Mind Pet Sitting Services LLC</h3>
             </Copyright>
             <SocialIcons>
               {SOCIAL.map(({ icon, link }) => (
