@@ -5,7 +5,7 @@ import InnerHTML from 'dangerously-set-html-content';
 const Schedule = () => (
     <Section id="schedule">
         <Container>
-            <h1>Book an Appointment</h1>
+            <h1>Schedule an Appointment</h1>
             <InnerHTML html={`<script
                 id="nc-booking-widget-script"
                 src="https://www.neatcal.com/app/services/booking/assets/js/integrate.js"

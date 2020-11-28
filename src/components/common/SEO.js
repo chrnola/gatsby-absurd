@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'Peace of Mind Pet Sitting',
+  description: 'Peace of mind when you leave your pets behind',
   title: 'Peace of Mind',
   url: 'https://peaceofmindpetsitting.net',
   author: '',
