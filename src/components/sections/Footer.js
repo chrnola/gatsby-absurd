@@ -53,13 +53,6 @@ const Footer = () => (
           <StyledContainer>
             <Copyright>
               <h2>Absurd</h2>
-              <span>
-                Illustrations by
-                {` `}
-                <ExternalLink href="https://twitter.com/diana_valeanu">
-                  @diana_valeanu
-                </ExternalLink>
-              </span>
             </Copyright>
             <SocialIcons>
               {SOCIAL.map(({ icon, link }) => (
