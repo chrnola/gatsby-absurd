@@ -1,10 +1,10 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { Container } from '@components/global';
-import ExternalLink from '@common/ExternalLink';
 
 const Header = () => (
   <StaticQuery
@@ -39,12 +39,12 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledExternalLink>
+                <StyledAnchorLink href={`#book`}>
                   <span role="img" aria-label="pawprints">🐾</span>
                    Book Now
                   <span role="img" aria-label="pawprints">🐾</span>
                    &nbsp;&#x2794;
-                </StyledExternalLink>
+                </StyledAnchorLink>
               </p>
             </Text>
           </Grid>
@@ -101,7 +101,7 @@ const Text = styled.div`
   }
 `;
 
-const StyledExternalLink = styled(ExternalLink)`
+const StyledAnchorLink = styled(AnchorLink)`
   color: inherit;
   text-decoration: none;
 
