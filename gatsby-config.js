@@ -54,5 +54,11 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `25147701400`,
+      },
+    },
   ],
 };
