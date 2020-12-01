@@ -20,7 +20,7 @@ const NAV_ITEMS = [
     'Contact',
     'Book',
     'Bio',
-    'Photos',
+    'Pics',
 ];
 
 class Navbar extends Component {

@@ -8,7 +8,7 @@ import Contact from '@sections/Contact';
 import About from '@sections/About';
 import Book from '@sections/Book';
 import Bio from '@sections/Bio';
-import Photos from '@sections/Photos';
+import Pics from '@sections/Pics';
 import Footer from '@sections/Footer';
 
 const IndexPage = () => (
@@ -19,7 +19,7 @@ const IndexPage = () => (
     <Contact />
     <Book />
     <Bio />
-    <Photos />
+    <Pics />
     <Footer />
   </Layout>
 );

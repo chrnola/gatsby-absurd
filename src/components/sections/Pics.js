@@ -25,9 +25,9 @@ const Photos = () => (
       }
     `}
     render={data => (
-        <Section id="photos">
+        <Section id="pics">
           <Container>
-            <h1>Photos</h1>
+            <h1>Pics</h1>
             <p>
                 Follow us on Instagram:&nbsp;
                 <ExternalLink href="https://www.instagram.com/pompetsitting/">
