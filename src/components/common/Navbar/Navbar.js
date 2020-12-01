@@ -19,6 +19,7 @@ const NAV_ITEMS = [
     'About',
     'Contact',
     'Book',
+    'Bio',
     'Photos',
 ];
 

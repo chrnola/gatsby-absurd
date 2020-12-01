@@ -7,6 +7,7 @@ import Header from '@sections/Header';
 import Contact from '@sections/Contact';
 import About from '@sections/About';
 import Book from '@sections/Book';
+import Bio from '@sections/Bio';
 import Photos from '@sections/Photos';
 import Footer from '@sections/Footer';
 
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <About />
     <Contact />
     <Book />
+    <Bio />
     <Photos />
     <Footer />
   </Layout>
