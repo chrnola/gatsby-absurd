@@ -1,10 +1,9 @@
-# gatsby-absurd
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/chrnola/gatsby-absurd)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/30449ba4-6ea5-4039-aa76-2e742cdd6faa/deploy-status)](https://app.netlify.com/sites/optimistic-nobel-4181cb/deploys)
 
-An absurd Gatsby starter. The collection of illustrations, [absurd.design](https://absurd.design/) by [Diana Valeanu](https://twitter.com/diana_valeanu) is a very fascinating and beautiful project with some pretty thoughtful concepts. Experimentation on how that could be put together on a site ended up as this starter.
+# POM
 
-![screenshot](https://user-images.githubusercontent.com/20743219/85018804-64ec4e00-b18b-11ea-9aa0-d4be033efff8.png)
-
-[Live Demo](https://gatsby-absurd.vercel.app/)
+A repo for the [Peace of Mind](https://peaceofmindpetsitting.net) website.
 
 ## Installation
 
@@ -35,3 +34,6 @@ The component `src/components/common/SEO.js` handles all meta data and SEO conte
 ## Styling
 
 This project uses [styled-components]() to handle styling: `src/styles/theme.js` defines the styling base and `src/styles/GlobalStyles.js` includes basic element styles along with the CSS Reset.
+
+## Credits
+Based on the [gatsby-absurd starter](https://www.gatsbyjs.com/starters/ajayns/gatsby-absurd).
