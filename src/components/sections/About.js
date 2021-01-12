@@ -5,6 +5,10 @@ import { Container, Section } from '@components/global';
 const About = () => (
     <Section id="about">
         <Container>
+            <h3>Serving West Chester, Downingtown, Malvern, Paoli, Exton, and Chester Springs</h3>
+
+            <br/>
+
             <p>Imagine your next vacation, spontaneous weekend getaway, or business trip...but without all the stress.</p>
             <br/>
             <p>How much more relaxed would you feel if:</p>
