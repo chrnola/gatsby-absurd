@@ -15,7 +15,6 @@ const About = () => (
             <p>
                 <ul>
                     <li>Your pets were genuinely cared for in your absence <b>AND</b> they got to stay in the comfort of their own home.</li>
-                    <li>You didn't have to worry about finding expensive long term parking at the airport.</li>
                     <li>You didn't have to do chores when you got home; your house, car, and backyard were already clean.</li>
                     <li>You didn't have to run out to the grocery store; your refrigerator was already stocked with your favorite foods.</li>
                 </ul>
