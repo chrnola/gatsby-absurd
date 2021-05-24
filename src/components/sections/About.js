@@ -5,7 +5,7 @@ import { Container, Section } from '@components/global';
 const About = () => (
     <Section id="about">
         <Container>
-            <h3>Serving West Chester, Downingtown, Malvern, Paoli, Exton, and Chester Springs</h3>
+            <h2>Serving Chester County, Pennsylvania since 2019.</h2>
 
             <br/>
 
@@ -20,6 +20,43 @@ const About = () => (
                 </ul>
             </p>
             <p>All this and more can be scheduled at your convenience to help you find some peace of mind the next time you're away.</p>
+
+            <br/>
+
+            <h3>Purpose</h3>
+            <p>Our mission is to create a welcoming, inclusive community.</p>
+            <br/>
+            <p>
+                Recently, it appears that more Americans are “bowling alone".
+                Political strife and socioeconomic differences have created deep fissures within our communities
+                and have seriously challenged what it means to be a good neighbor. Despite having over 8 billion
+                humans on this planet, loneliness seems to be on the rise. I believe that by creating a community
+                that cares, we can improve the human condition locally, and create a runway for improving the
+                human condition globally. It will be hard to change the world at large if we cannot simply trust
+                those that live among us. Yes, we are just a pet sitting company, but is there a better place to
+                learn of love and acceptance than from, say, a loyal dog?
+            </p>
+
+            <br/>
+
+            <h3>Core Values</h3>
+            <p>
+                <ul>
+                    <li>Treat all pets &amp; property as if they were your own.</li>
+                    <li>Inspire others to learn and grow. </li>
+                    <li>Go the extra mile. </li>
+                    <li>Tell the truth. </li>
+                    <li>Give back.</li>
+                </ul>
+            </p>
+
+            <br/>
+
+            <h3>Our Promise</h3>
+            <p>
+                We pledge to donate 1% of sales or 10% of profits, whichever is greater, to help improve the
+                world around us via charities chosen by our customers.
+            </p>
         </Container>
     </Section>
 );
