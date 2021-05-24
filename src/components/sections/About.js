@@ -42,7 +42,7 @@ const About = () => (
             <h3>Core Values</h3>
             <p>
                 <ul>
-                    <li>Treat all pets &amp; property as if they were your own.</li>
+                    <li>Treat all pets &amp; property as if they were our own.</li>
                     <li>Inspire others to learn and grow. </li>
                     <li>Go the extra mile. </li>
                     <li>Tell the truth. </li>
