@@ -5,7 +5,7 @@ import { Container, Section } from '@components/global';
 const About = () => (
     <Section id="about">
         <Container>
-            <h3>Serving Chester County, Pennsylvania since 2019.</h3>
+            <h2>Serving Chester County, Pennsylvania since 2019.</h2>
 
             <br/>
 
@@ -21,12 +21,11 @@ const About = () => (
             </p>
             <p>All this and more can be scheduled at your convenience to help you find some peace of mind the next time you're away.</p>
 
-            <b>Purpose</b>
+            <br/>
 
-            <p>
-                Our mission is to create a welcoming, inclusive community.
-            </p>
-
+            <h3>Purpose</h3>
+            <p>Our mission is to create a welcoming, inclusive community.</p>
+            <br/>
             <p>
                 Recently, it appears that more Americans are “bowling alone".
                 Political strife and socioeconomic differences have created deep fissures within our communities
@@ -38,18 +37,24 @@ const About = () => (
                 learn of love and acceptance than from, say, a loyal dog?
             </p>
 
-            <b>Core Values</b>
-            <ul>
-                <li>Treat all pets &amp; property as if they were your own.</li>
-                <li>Inspire others to learn and grow. </li>
-                <li>Go the extra mile. </li>
-                <li>Tell the truth. </li>
-                <li>Give back.</li>
-            </ul>
+            <br/>
 
-            <b>Our Promise</b>
+            <h3>Core Values</h3>
             <p>
-                POMPSS pledges to donate 1% of sales or 10% of profits, whichever is greater, to help improve the
+                <ul>
+                    <li>Treat all pets &amp; property as if they were your own.</li>
+                    <li>Inspire others to learn and grow. </li>
+                    <li>Go the extra mile. </li>
+                    <li>Tell the truth. </li>
+                    <li>Give back.</li>
+                </ul>
+            </p>
+
+            <br/>
+
+            <h3>Our Promise</h3>
+            <p>
+                We pledge to donate 1% of sales or 10% of profits, whichever is greater, to help improve the
                 world around us via charities chosen by our customers.
             </p>
         </Container>
