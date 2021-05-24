@@ -65,7 +65,7 @@ class Navbar extends Component {
     return (
       <Nav {...this.props}>
         <StyledContainer>
-          <Brand>Peace of Mind Pet Sitting Services<br/>Chester County, PA</Brand>
+          <Brand>Peace of Mind Pet Sitting</Brand>
           <Mobile>
             <button onClick={this.toggleMobileMenu} style={{ color: 'black' }}>
               <MenuIcon />
