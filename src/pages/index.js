@@ -6,7 +6,7 @@ import Navbar from '@common/Navbar';
 import Header from '@sections/Header';
 import Contact from '@sections/Contact';
 import About from '@sections/About';
-import Book from '@sections/Book';
+import Request from '@sections/Request';
 import Bio from '@sections/Bio';
 import Pics from '@sections/Pics';
 import Footer from '@sections/Footer';
@@ -17,7 +17,7 @@ const IndexPage = () => (
     <Header />
     <About />
     <Contact />
-    <Book />
+    <Request />
     <Bio />
     <Pics />
     <Footer />

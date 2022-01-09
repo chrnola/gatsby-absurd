@@ -39,9 +39,9 @@ const Header = () => (
               </h1>
               <br />
               <p>
-                <StyledAnchorLink href={`#book`}>
+                <StyledAnchorLink href={`#request`}>
                   <span role="img" aria-label="pawprints">🐾</span>
-                   Book Now
+                  &nbsp; Request a Service Now &nbsp;
                   <span role="img" aria-label="pawprints">🐾</span>
                    &nbsp;&#x2794;
                 </StyledAnchorLink>

@@ -2,10 +2,10 @@ import React from 'react';
 import { Section, Container } from '@components/global';
 import InnerHTML from 'dangerously-set-html-content';
 
-const Book = () => (
-    <Section id="book">
+const Request = () => (
+    <Section id="request">
         <Container>
-            <h1>Book a Sitting or Service Today!</h1>
+            <h1>Request a Sitting or Service Today!</h1>
             <InnerHTML html={`<script
                 id="nc-booking-widget-script"
                 src="https://www.neatcal.com/app/services/booking/assets/js/integrate.js?v=21.04.04.1"
@@ -17,4 +17,4 @@ const Book = () => (
     </Section>
 );
 
-export default Book;
+export default Request;
