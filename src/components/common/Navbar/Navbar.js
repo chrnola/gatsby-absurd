@@ -18,7 +18,7 @@ import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 const NAV_ITEMS = [
     'About',
     'Contact',
-    'Book',
+    'Request',
     'Bio',
     'Pics',
 ];
