@@ -1,5 +1,4 @@
 import React from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import styled from 'styled-components';
 import { StaticQuery, graphql } from 'gatsby';
 import Img from 'gatsby-image';
@@ -29,24 +28,6 @@ const Header = () => (
             <Art>
               <Img fluid={data.art_build.childImageSharp.fluid} />
             </Art>
-            <Text>
-              <h1>
-                Peace of mind
-                <br />
-                when you leave
-                <br />
-                your pets behind
-              </h1>
-              <br />
-              <p>
-                <StyledAnchorLink href={`#request`}>
-                  <span role="img" aria-label="pawprints">🐾</span>
-                  &nbsp; Request a Service Now &nbsp;
-                  <span role="img" aria-label="pawprints">🐾</span>
-                   &nbsp;&#x2794;
-                </StyledAnchorLink>
-              </p>
-            </Text>
           </Grid>
         </Container>
       </HeaderWrapper>
@@ -90,23 +71,6 @@ const Grid = styled.div`
     > ${Art} {
       order: 2;
     }
-  }
-`;
-
-const Text = styled.div`
-  justify-self: center;
-
-  @media (max-width: ${props => props.theme.screen.md}) {
-    justify-self: start;
-  }
-`;
-
-const StyledAnchorLink = styled(AnchorLink)`
-  color: inherit;
-  text-decoration: none;
-
-  &:hover {
-    color: ${props => props.theme.color.black.regular};
   }
 `;
 

@@ -17,10 +17,6 @@ import { ReactComponent as MenuIcon } from '@static/icons/menu.svg';
 
 const NAV_ITEMS = [
     'About',
-    'Contact',
-    'Request',
-    'Bio',
-    'Pics',
 ];
 
 class Navbar extends Component {

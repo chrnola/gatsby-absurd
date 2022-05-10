@@ -5,14 +5,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import { Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import InstagramIcon from '@static/icons/instagram.svg';
-
-const SOCIAL = [
-  {
-    icon: InstagramIcon,
-    link: 'https://instagram.com/pompetsitting',
-  },
-];
+const SOCIAL = [];
 
 const Footer = () => (
   <StaticQuery
